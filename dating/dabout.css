@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff0f5;
+    color: #444;
+  }
+  
+  .navbar {
+    background: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  }
+  
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d63384;
+  }
+  
+  .navbar nav a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar nav a.active,
+  .navbar nav a:hover {
+    color: #d63384;
+  }
+  
+  .hero {
+    background: linear-gradient(rgba(255, 192, 203, 0.7), rgba(255, 105, 180, 0.7)), url('https://img.freepik.com/free-vector/happy-valentines-day-shiny-hearts-background-with-text-space_1017-23191.jpg?t=st=1744111735~exp=1744115335~hmac=958aacc43c0afc8cffe3bdf4f36e175f80e52a18bfb4d6c3f0ef88a48932d9a5&w=1380') center/cover no-repeat;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+  
+  .about-content {
+    padding: 3rem 1rem;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  }
+  
+  .about-content h2 {
+    color: #d63384;
+    margin-top: 2rem;
+  }
+  
+  .about-content ul {
+    list-style: none;
+    margin: 1rem 0;
+    padding-left: 0;
+  }
+  
+  .about-content ul li {
+    margin: 0.5rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+  }
+  
+  .about-content ul li::before {
+    content: "❤";
+    position: absolute;
+    left: 0;
+  }
+  
+  .cta {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .join-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #d63384;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  
+  .join-btn:hover {
+    background-color: #c2185b;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #fff;
+    color: #aaa;
+    margin-top: 3rem;
+    font-size: 0.9rem;
+  }

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login to LOVEU 💕</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffecd2, #fcb69f);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 16px;
+      width: 400px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+      animation: fadeIn 0.8s ease;
+    }
+    h2 {
+      text-align: center;
+      color: #e91e63;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-top: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #e91e63;
+      color: white;
+      padding: 12px;
+      border: none;
+      margin-top: 25px;
+      border-radius: 8px;
+      width: 100%;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #d2185b;
+    }
+    .message {
+      text-align: center;
+      margin-top: 20px;
+      color: #333;
+    }
+    a {
+      text-decoration: none;
+      color: #e91e63;
+      font-weight: bold;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <form method="POST" action="">
+    <h2>Welcome Back, Lover 💌</h2>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="password" name="password" placeholder="Your Password" required>
+    <button type="submit">Log In</button>
+    <div class="message"><!-- You can display messages here using JavaScript or backend logic --></div>
+    <a href="datingregister.html">Register</a>
+  </form>
+</body>
+</html>
